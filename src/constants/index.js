@@ -23,7 +23,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "chatsUp is a real-time chat application built using the MERN stack (MongoDB, Express.js, React, Node.js). It features a modern, responsive design with Tailwind CSS and DaisyUI, utilizes Context API for state management, and provides real-time notifications with React Hot Toast.",
-    technologies: ["MongoDB","Express.js","React.js", "Node.js","Tailwind CSS"],
+    technologies: ["MongoDB","Express.js","React.js", "Node.js"],
     live:"https://github.com/MdIrfan-ul/ChatsUp"
   },
   {
@@ -39,7 +39,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "Issue Tracker is a simple web application built with Node.js and EJS that allows users to track issues/bugs for various projects. Users can create new projects and add issues to those projects, making it easier to manage and prioritize tasks.",
-    technologies: ["HTML","CSS","JavaScript","BootStrap","Node.js","Express.js","MongoDB"],
+    technologies: ["BootStrap","Node.js","Express.js","MongoDB"],
     live:"https://github.com/MdIrfan-ul/IssueTracker"
   },
 ];
