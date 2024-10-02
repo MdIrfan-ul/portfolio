@@ -2,7 +2,7 @@ import Contact from "./components/Home/Contact";
 import Hero from "./components/Home/Hero";
 import Projects from "./components/Home/Projects";
 import Technologies from "./components/Home/Technologies";
-import Nav from "./components/nav/nav";
+import Nav from "./components/Nav/Nav";
 export default function App() {
   return (
     <>
