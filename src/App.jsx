@@ -8,7 +8,7 @@ import Nav from "./components/Nav/Nav";
 
 export default function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden text-slate-200 antialiased">
+    <div className="min-h-screen overflow-x-clip text-slate-200 antialiased">
       <div className="fixed inset-0 -z-10 bg-surface">
         <div
           className="absolute inset-0 bg-grid-soft bg-[length:48px_48px] opacity-90"

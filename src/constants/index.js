@@ -9,7 +9,8 @@ export const PROFILE_ROLES = [
   "Software Engineer",
   "Full Stack Developer",
   "Backend Developer",
-  "Prompt Engineer"
+  "Generative AI Engineer",
+  "Prompt Engineer",
 ];
 
 /** Supporting line (headline / intent) */
