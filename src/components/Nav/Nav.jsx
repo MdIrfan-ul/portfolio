@@ -34,7 +34,7 @@ const Nav = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/mdirfanul"
+              href="https://github.com/MdIrfan-ul"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -66,7 +66,7 @@ const Nav = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/mdirfanul"
+            href="https://github.com/MdIrfan-ul"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
