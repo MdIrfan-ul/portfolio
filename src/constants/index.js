@@ -1,8 +1,8 @@
-import project0 from "../assets/projects/project-0.png";
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
+import project0 from "../assets/projects/project-0.webp";
+import project1 from "../assets/projects/project-1.webp";
+import project2 from "../assets/projects/project-2.webp";
+import project3 from "../assets/projects/project-3.webp";
+import project4 from "../assets/projects/project-4.webp";
 
 /** Rotating roles shown in the hero (animated) */
 export const PROFILE_ROLES = [

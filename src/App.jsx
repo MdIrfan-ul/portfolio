@@ -1,10 +1,16 @@
-import Contact from "./components/Home/Contact";
-import Experience from "./components/Home/Experience";
+import { lazy, Suspense } from "react";
 import Hero from "./components/Home/Hero";
-import About from "./components/Home/About";
-import Projects from "./components/Home/Projects";
-import Technologies from "./components/Home/Technologies";
 import Nav from "./components/Nav/Nav";
+
+const About = lazy(() => import("./components/Home/About"));
+const Experience = lazy(() => import("./components/Home/Experience"));
+const Technologies = lazy(() => import("./components/Home/Technologies"));
+const Projects = lazy(() => import("./components/Home/Projects"));
+const Contact = lazy(() => import("./components/Home/Contact"));
+
+function SectionFallback() {
+  return <div className="py-24" />;
+}
 
 export default function App() {
   return (
@@ -22,11 +28,13 @@ export default function App() {
       <div className="container mx-auto max-w-6xl px-5 sm:px-8">
         <Nav />
         <Hero />
-        <About />
-        <Experience />
-        <Technologies />
-        <Projects />
-        <Contact />
+        <Suspense fallback={<SectionFallback />}>
+          <About />
+          <Experience />
+          <Technologies />
+          <Projects />
+          <Contact />
+        </Suspense>
       </div>
     </div>
   );

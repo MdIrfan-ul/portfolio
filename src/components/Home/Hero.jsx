@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import profilePic from "../../assets/portfolio_image.png";
+import profilePic from "../../assets/portfolio_image.webp";
 import {
   HERO_CONTENT,
   PROFILE_LOCATION,
@@ -135,6 +135,8 @@ const Hero = () => {
                 alt="Mohamed Irfanullah M"
                 width={640}
                 height={640}
+                fetchPriority="high"
+                decoding="async"
                 className="aspect-square max-h-[min(420px,70vw)] w-full rounded-[1.5rem] object-cover sm:max-h-[480px]"
               />
             </div>

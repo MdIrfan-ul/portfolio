@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profilePic from "../../assets/portfolio_image.png";
+import profilePic from "../../assets/portfolio_image.webp";
 import { ABOUT_TEXT } from "../../constants";
 
 const About = () => {
@@ -37,6 +37,8 @@ const About = () => {
               alt="Mohamed Irfanullah M"
               width={200}
               height={200}
+              loading="lazy"
+              decoding="async"
               className="relative h-48 w-48 rounded-full border border-white/15 object-cover shadow-lg lg:h-52 lg:w-52"
             />
           </div>

@@ -61,6 +61,8 @@ const Projects = () => {
                   alt=""
                   width={640}
                   height={400}
+                  loading="lazy"
+                  decoding="async"
                   className="h-56 w-full object-cover transition duration-500 hover:scale-[1.02] sm:h-72 lg:h-full lg:min-h-[320px]"
                 />
               </a>
